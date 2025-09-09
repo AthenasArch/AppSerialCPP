@@ -1,0 +1,33 @@
+@'
+# Visual Studio / VSCode
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Builds e caches
+[Bb]in/
+[Oo]bj/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+ipch/
+*.ipch
+*.obj
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.lastbuildstate
+*.VC.db
+*.VC.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+
+# Outros temporários
+*.cache
+*.tmp
+'@ | Out-File -Encoding ASCII .gitignore
